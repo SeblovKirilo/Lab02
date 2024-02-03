@@ -1,3 +1,3 @@
-# Повертає успішно виконаний тест
-def test_all_passed():
-    pass
+# Провалює тест
+def test_failure():
+    assert False, "Тест завершується з помилкою"
